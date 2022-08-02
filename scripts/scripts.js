@@ -59,9 +59,7 @@ $(function() {
     $(".options-grid").on("click", function(event) {
         if ($(event.target).data('option') != undefined) {
             $(".video-container").removeClass("hide").addClass("show");
-            //$(".options-grid").removeClass("show").addClass("hide");
             $(".grid-container").removeClass("show").addClass("hide");
-            console.log(videos.options[phase_counter][$(event.target).data('option')].title)
 
             $('<source />', {
                 type: 'video/mp4',
@@ -94,7 +92,6 @@ $(function() {
         $(".video-container").removeClass("hide").addClass("show");
         $(".get-started").removeClass("show").addClass("hide");
         $(".myke-logo").removeClass("hide").addClass("show");
-        console.log(videos.options[phase_counter][$(this).data('option')].title)
         $('<source />', {
             type: 'video/mp4',
             src: videos.options[phase_counter][$(this).data('option')].url,
@@ -138,13 +135,11 @@ function createMenu(id) {
             .appendTo($('.options-grid'));
         for (const [key, value] of Object.entries(videos.options[id])) {
             if (key != "optionsDescription") {
-                console.log("key: " + key + " value: " + value);
                 $('<div class="option-' + key + '"><a data-option = "' + key + '">' + value.title + '</a></div>').appendTo($('.options-grid'));
                 $('<div class="border-' + key + '"></div>').appendTo($('.options-grid'));
             }
         };
     } else if (phase_counter == 0) {
-        console.log("first");
         $(".get-started").removeClass("hide").addClass("show");
         $(".myke-logo").removeClass("show").addClass("hide");
     } else {
