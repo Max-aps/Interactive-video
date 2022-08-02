@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MED-155163</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="nav-buttons">
+        <button id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.9 70.81"><defs><style>.cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polyline class="cls-2" points="67.13 22.95 40.95 2 2 33.16"/><line class="cls-2" x1="79.9" y1="33.16" x2="67.13" y2="22.95"/><path class="cls-2" d="M13.91,23.57V58.19A10.65,10.65,0,0,0,24.53,68.81H56.61A10.65,10.65,0,0,0,67.24,58.19V23"/><path class="cls-2" d="M32,68.81V47.69a5.56,5.56,0,0,1,5.55-5.54h6a5.55,5.55,0,0,1,5.54,5.54V68.81"/></g></g></svg>
+        </button>
+        <button id="fullscreen">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.83 65.83"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><line class="cls-1" x1="5.8" y1="5.8" x2="25.93" y2="25.93"/><path class="cls-1" d="M24.59,2H13.38A11.41,11.41,0,0,0,2,13.38v11"/><line class="cls-1" x1="58.91" y1="5.91" x2="38.79" y2="26.04"/><path class="cls-1" d="M62.83,24.59V13.38A11.41,11.41,0,0,0,51.45,2h-11"/><line class="cls-1" x1="59.02" y1="60.03" x2="38.9" y2="39.9"/><path class="cls-1" d="M40.24,63.83H51.45A11.41,11.41,0,0,0,62.83,52.46v-11"/><line class="cls-1" x1="5.91" y1="59.92" x2="26.04" y2="39.79"/><path class="cls-1" d="M2,41.25V52.46A11.41,11.41,0,0,0,13.38,63.83h11"/></g></g></svg>
+        </button>
+    </div>
+    <button id="back" class="back-button hide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.29 61.21"><defs><style>.cls-3{fill:none;stroke:#2a2a3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><line class="cls-3" x1="2" y1="30.75" x2="71.29" y2="30.75"/><path class="cls-3" d="M26.79,2l-22,22a9.54,9.54,0,0,0,0,13.47L26.51,59.21"/></g></g></svg>
+    </button>
+    <div class="page-container">
+        <div class="amgen-logo">
+            <img src="assets/icons/amge.svg" />
+        </div>
+        <div class="myke-logo">
+            <img src="assets/icons/myke.png" />
+        </div>
+        <div class="grid-container hide">
+            <div class="grid-ratio-container">
+                <div class="options-grid">
+                    <!-- dynamically inserted grid items-->
+
+                </div>
+            </div>
+        </div>
+        <div class="get-started">
+            <div class="start-myke-container">
+                <img id="start-myke-logo" src="assets/icons/myke.png" />
+            </div>
+            <div class="case-study-container">
+                <a id="start" data-option="0"><img class="case-study" src="assets/icons/view-smm.svg" /></a>
+            </div>
+        </div>
+        <div class="video-container hide">
+            <video width="100%" controls playsinline autoplay muted></video>
+        </div>
+    </div>
+    <!-- js scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/5.1.0/screenfull.min.js" integrity="sha512-SGPHIoS+NsP1NUL5RohNpDs44JlF36tXLN6H3Cw+EUyenEc5zPXWqfw9D+xmvR00QYUYewQIJQ6P5yH82Vw6Fg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
