@@ -91,7 +91,7 @@ $(function() {
     $("#start").on('click', function() {
         $(".video-container").removeClass("hide").addClass("show");
         $(".get-started").removeClass("show").addClass("hide");
-        $(".myke-logo").removeClass("hide").addClass("show");
+        $(".company1-logo").removeClass("hide").addClass("show");
         $('<source />', {
             type: 'video/mp4',
             src: videos.options[phase_counter][$(this).data('option')].url,
@@ -141,7 +141,7 @@ function createMenu(id) {
         };
     } else if (phase_counter == 0) {
         $(".get-started").removeClass("hide").addClass("show");
-        $(".myke-logo").removeClass("show").addClass("hide");
+        $(".company1-logo").removeClass("show").addClass("hide");
     } else {
         console.log("error: negative phase_counter")
     }

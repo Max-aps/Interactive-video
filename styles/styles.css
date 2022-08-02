@@ -105,18 +105,18 @@ button {
   width: auto;
 }
 
-.amgen-logo {
+.company2-logo {
   position: absolute;
   bottom: 15px;
   right: 20px;
 }
 
-.amgen-logo img {
+.company2-logo img {
   width: 8vw;
   height: auto;
 }
 
-.myke-logo {
+.company1-logo {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -126,7 +126,7 @@ button {
   max-width: 850px;
 }
 
-.myke-logo img {
+.company1-logo img {
   width: 20vw;
   height: auto;
 }
@@ -362,12 +362,12 @@ button {
   height: auto;
 }
 
-.get-started .start-myke-container {
+.get-started .start-company1-container {
   margin-top: -5%;
   width: 70%;
 }
 
-.get-started .start-myke-container img#start-myke-logo {
+.get-started .start-company1-container img#start-company1-logo {
   width: 100%;
   height: auto;
 }
